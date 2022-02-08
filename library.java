@@ -25,5 +25,13 @@ public class mathLibImplementation {
 
         return res;
     }
+    
+    public double toDegrees(double radian){
+        double res=0;
+        double pi = 355/113;
+        res = radian * 180/pi;
+
+        return res;
+    }
 
 }
