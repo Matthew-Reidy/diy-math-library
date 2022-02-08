@@ -18,5 +18,12 @@ public class mathLibImplementation {
             return b;
         }
     }
+    public double sin (double a){
+        double res =0;
+
+        res = a/180 * 355/113;
+
+        return res;
+    }
 
 }
