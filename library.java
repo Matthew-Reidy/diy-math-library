@@ -1,4 +1,5 @@
 public class mathLibImplementation {
+    public double pi = 3.14159265359;
 
     public int min(int a, int b){
 
@@ -18,20 +19,35 @@ public class mathLibImplementation {
             return b;
         }
     }
+
     public double sin (double a){
         double res =0;
 
-        res = a/180 * 355/113;
+        res = a/180 * pi;
 
         return res;
     }
-    
-    public double toDegrees(double radian){
-        double res=0;
-        double pi = 355/113;
-        res = radian * 180/pi;
+
+    public double tan( double a){
+        int res =0;
 
         return res;
+
+    }
+
+    public double cos( double a){
+        int res =0;
+
+        return res;
+
+    }
+
+    public double toDegrees(double radian){
+        return radian * 180/pi;
+    }
+
+    public double toRadians(double degree){
+        return degree * pi/180;
     }
 
 }
