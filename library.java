@@ -1,5 +1,5 @@
 public class mathLibImplementation {
-    public double pi = 3.14159265359;
+    public final double pi = 3.14159265359;
 
     public int min(int a, int b){
 
